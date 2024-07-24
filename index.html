@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Questions</title>
+    <style>
+        /* Reset default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        /* Container styles */
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header styles */
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* Navigation styles */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #333;
+            padding: 8px 12px;
+            border-radius: 5px;
+            background-color: #f0f0f0;
+            transition: background-color 0.3s ease;
+        }
+
+        ul li a:hover {
+            background-color: #e0e0e0;
+        }
+
+        /* Topic styles */
+        .topic {
+            margin-bottom: 30px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: #fff;
+        }
+
+        .topic h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .question {
+            margin-bottom: 10px;
+        }
+
+        .question strong {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .question p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Trivia Questions</h1>
+
+        <!-- Navigation links for topics -->
+        <ul>
+            <li><a href="#history">History</a></li>
+            <li><a href="#science">Science</a></li>
+            <li><a href="#geography">Geography</a></li>
+            <li><a href="#literature">Literature</a></li>
+            <li><a href="#movies">Movies and TV</a></li>
+            <li><a href="#sports">Sports</a></li>
+            <li><a href="#music">Music</a></li>
+            <li><a href="#technology">Technology</a></li>
+            <li><a href="#general">General Knowledge</a></li>
+            <li><a href="#food">Food and Drink</a></li>
+        </ul>
+
+        <!-- Topic sections -->
+        <div class="topic" id="history">
+            <h2>History</h2>
+            <div class="question">
+                <p><strong>1. When did World War I begin?</strong></p>
+                <p>A) 1914</p>
+                <p>B) 1923</p>
+                <p>C) 1905</p>
+                <p>D) 1939</p>
+            </div>
+            <div class="question">
+                <p><strong>2. Who was the first President of the United States?</strong></p>
+                <p>A) George Washington</p>
+                <p>B) Thomas Jefferson</p>
+                <p>C) Abraham Lincoln</p>
+                <p>D) John Adams</p>
+            </div>
+        </div>
+
+        <div class="topic" id="science">
+            <h2>Science</h2>
+            <div class="question">
+                <p><strong>1. What is the chemical symbol for the element oxygen?</strong></p>
+                <p>A) O</p>
+                <p>B) Ox</p>
+                <p>C) Oc</p>
+                <p>D) O2</p>
+            </div>
+            <div class="question">
+                <p><strong>2. Who developed the theory of relativity?</strong></p>
+                <p>A) Isaac Newton</p>
+                <p>B) Albert Einstein</p>
+                <p>C) Nikola Tesla</p>
+                <p>D) Galileo Galilei</p>
+            </div>
+        </div>
+
+        <div class="topic" id="geography">
+            <h2>Geography</h2>
+            <div class="question">
+                <p><strong>1. What is the capital city of France?</strong></p>
+                <p>A) Berlin</p>
+                <p>B) Madrid</p>
+                <p>C) Paris</p>
+                <p>D) London</p>
+            </div>
+            <div class="question">
+                <p><strong>2. Which country is known as the Land of the Rising Sun?</strong></p>
+                <p>A) China</p>
+                <p>B) Japan</p>
+                <p>C) Korea</p>
+                <p>D) Vietnam</p>
+            </div>
+        </div>
+
+        <div class="topic" id="literature">
+            <h2>Literature</h2>
+            <div class="question">
+                <p><strong>1. Who wrote the novel "To Kill a Mockingbird"?</strong></p>
+                <p>A) Harper Lee</p>
+                <p>B) J.K. Rowling</p>
+                <p>C) Charles Dickens</p>
+                <p>D) Mark Twain</p>
+            </div>
+            <div class="question">
+                <p><strong>2. In which Shakespeare play does the character Hamlet appear?</strong></p>
+                <p>A) Macbeth</p>
+                <p>B) Romeo and Juliet</p>
+                <p>C) Hamlet</p>
+                <p>D) Othello</p>
+            </div>
+        </div>
+
+        <div class="topic" id="movies">
+            <h2>Movies and TV</h2>
+            <div class="question">
+                <p><strong>1. Who played the character Neo in the movie "The Matrix"?</strong></p>
+                <p>A) Keanu Reeves</p>
+                <p>B) Tom Cruise</p>
+                <p>C) Brad Pitt</p>
+                <p>D) Leonardo DiCaprio</p>
+            </div>
+            <div class="question">
+                <p><strong>2. What is the name of Harry Potter's pet owl?</strong></p>
+                <p>A) Hoot</p>
+                <p>B) Pigwidgeon</p>
+                <p>C) Hedwig</p>
+                <p>D) Errol</p>
+            </div>
+        </div>
+
+        <div class="topic" id="sports">
+            <h2>Sports</h2>
+            <div class="question">
+                <p><strong>1. Which sport uses a shuttlecock?</strong></p>
+                <p>A) Tennis</p>
+                <p>B) Badminton</p>
+                <p>C) Volleyball</p>
+                <p>D) Cricket</p>
+            </div>
+            <div class="question">
+                <p><strong>2. Who is the all-time top scorer in men's international football?</strong></p>
+                <p>A) Lionel Messi</p>
+                <p>B) Cristiano Ronaldo</p>
+                <p>C) Pelé</p>
+                <p>D) Diego Maradona</p>
+            </div>
+        </div>
+
+        <div class="topic" id="music">
+            <h2>Music</h2>
+            <div class="question">
+                <p><strong>1. Who is known as the King of Pop?</strong></p>
+                <p>A) Elvis Presley</p>
+                <p>B) Michael Jackson</p>
+                <p>C) Madonna</p>
+                <p>D) Justin Timberlake</p>
+            </div>
+            <div class="question">
+                <p><strong>2. What band was John Lennon a member of?</strong></p>
+                <p>A) The Rolling Stones</p>
+                <p>B) The Beatles</p>
+                <p>C) Led Zeppelin</p>
+                <p>D) The Who</p>
+            </div>
+        </div>
+
+        <div class="topic" id="technology">
+            <h2>Technology</h2>
+            <div class="question">
+                <p><strong>1. Who is the co-founder of Apple Inc.?</strong></p>
+                <p>A) Bill Gates</p>
+                <p>B) Steve Jobs</p>
+                <p>C) Jeff Bezos</p>
+                <p>D) Mark Zuckerberg</p>
+            </div>
+            <div class="question">
+                <p><strong>2. What does HTTP stand for in terms of internet protocols?</strong></p>
+                <p>A) HyperText Transmission Protocol</p>
+                <p>B) HyperTransfer Text Protocol</p>
+                <p>C) HyperText Transfer Protocol</p>
+                <p>D) HyperTransfer Transmission Protocol</p>
+            </div>
+        </div>
+
+        <div class="topic" id="general">
+            <h2>General Knowledge</h2>
+            <div class="question">
+                <p><strong>1. What is the largest planet in our solar system?</strong></p>
+                <p>A) Earth</p>
+                <p>B) Jupiter</p>
+                <p>C) Mars</p>
+                <p>D) Saturn</p>
+            </div>
+            <div class="question">
+                <p><strong>2. What is the capital of Australia?</strong></p>
+                <p>A) Sydney</p>
+                <p>B) Melbourne</p>
+                <p>C) Brisbane</p>
+                <p>D) Canberra</p>
+            </div>
+        </div>
+
+        <div class="topic" id="food">
+            <h2>Food and Drink</h2>
+            <div class="question">
+                <p><strong>1. Which country is famous for its sushi?</strong></p>
+                <p>A) China</p>
+                <p>B) Japan</p>
+                <p>C) Thailand</p>
+                <p>D) Italy</p>
+            </div>
+            <div class="question">
+                <p><strong>2. What is the main ingredient in guacamole?</strong></p>
+                <p>A) Avocado</p>
+                <p>B) Tomato</p>
+                <p>C) Onion</p>
+                <p>D) Pepper</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 KnowledgeKwik - Created by Belinda Mabende</p>
+        </div>
+    </footer>
+    
+    <!-- JavaScript for smooth scrolling -->
+    <script>
+        document.querySelectorAll('ul li a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const target = document.querySelector(this.getAttribute('href'));
+                target.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
